@@ -6,8 +6,8 @@ export default class Character {
         this.name = name;
         this.health = 100;
         this.level = 1;
-        this.attack = this.attack;
-        this.defence = this.defence;
+        this.attack = undefined;
+        this.defence = undefined;
     }
     levelUp() {
         if (this.health === 0) {
